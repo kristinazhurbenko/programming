@@ -2,11 +2,101 @@
 
 <Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
   <NonVisualComponents>
-    <Component class="javax.swing.JTextField" name="jTextField2">
+    <Container class="javax.swing.JDialog" name="jDialog1">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jTextField2"/>
+        <Property name="bounds" type="java.awt.Rectangle" editor="org.netbeans.beaninfo.editors.RectangleEditor">
+          <Rectangle value="[0, 0, 500, 250]"/>
+        </Property>
+        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[400, 250]"/>
+        </Property>
       </Properties>
-    </Component>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel9">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="RESULT"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="160" y="13" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="C11">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="C11ActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="147" y="42" width="28" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="C12">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="182" y="42" width="28" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="C13">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="217" y="42" width="28" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="C21">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="147" y="71" width="28" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="C22">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="182" y="71" width="28" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="C23">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="217" y="71" width="28" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="C31">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="146" y="100" width="28" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="C32">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="182" y="100" width="28" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="C33">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="217" y="100" width="28" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
   </NonVisualComponents>
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
@@ -51,7 +141,6 @@
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLabel2" min="-2" pref="196" max="-2" attributes="0"/>
                           <Group type="102" attributes="0">
                               <Group type="103" groupAlignment="1" max="-2" attributes="0">
                                   <Component id="A31" pref="28" max="32767" attributes="0"/>
@@ -59,30 +148,23 @@
                                   <Component id="A21" alignment="0" max="32767" attributes="0"/>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="A32" pref="28" max="32767" attributes="0"/>
-                                  <Component id="A12" max="32767" attributes="0"/>
-                                  <Component id="A22" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="A12" pref="28" max="32767" attributes="0"/>
+                                      <Component id="A22" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="A32" min="-2" pref="28" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="A33" pref="28" max="32767" attributes="0"/>
-                                  <Component id="A13" max="32767" attributes="0"/>
-                                  <Component id="A23" max="32767" attributes="0"/>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="A34" pref="28" max="32767" attributes="0"/>
-                                  <Component id="A14" max="32767" attributes="0"/>
-                                  <Component id="A24" max="32767" attributes="0"/>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="A15" pref="28" max="32767" attributes="0"/>
-                                  <Component id="A25" max="32767" attributes="0"/>
-                                  <Component id="A35" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="A13" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="A23" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="A33" pref="28" max="32767" attributes="0"/>
+                                  </Group>
                               </Group>
                           </Group>
+                          <Component id="jLabel2" min="-2" pref="196" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="339" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
@@ -104,30 +186,16 @@
                                           <Component id="B23" pref="28" max="32767" attributes="0"/>
                                           <Component id="B13" max="32767" attributes="0"/>
                                       </Group>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                          <Component id="B24" pref="28" max="32767" attributes="0"/>
-                                          <Component id="B14" max="32767" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                          <Component id="B15" pref="28" max="32767" attributes="0"/>
-                                          <Component id="B25" max="32767" attributes="0"/>
-                                      </Group>
                                   </Group>
                               </Group>
-                              <EmptySpace pref="18" max="32767" attributes="0"/>
+                              <EmptySpace pref="26" max="32767" attributes="0"/>
                           </Group>
                           <Group type="102" attributes="0">
                               <Component id="B31" min="-2" pref="27" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="B35" min="-2" pref="25" max="-2" attributes="0"/>
+                              <Component id="B32" min="-2" pref="25" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="B32" min="-2" pref="28" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
                               <Component id="B33" min="-2" pref="28" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="B34" min="-2" pref="28" max="-2" attributes="0"/>
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           </Group>
                       </Group>
@@ -159,41 +227,31 @@
                   <Component id="A11" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="A12" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="A13" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="A14" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="A15" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="B11" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="B12" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="B13" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="B14" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="B15" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="B21" alignment="0" min="-2" max="-2" attributes="0"/>
-                  <Component id="A22" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="A21" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="A23" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="A24" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="A25" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="B22" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="B23" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="B24" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="B25" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="A22" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="A21" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="A23" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="B22" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="B23" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="A31" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="A32" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="A33" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="A34" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="A35" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="B31" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="B32" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="B33" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="B34" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="B35" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="B32" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="A32" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="50" max="32767" attributes="0"/>
+              <EmptySpace pref="69" max="32767" attributes="0"/>
               <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="1" attributes="0">
@@ -238,12 +296,30 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="A11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="A11ActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="A12">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="A21">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="A22">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="A22ActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel3">
       <Properties>
@@ -254,12 +330,24 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="B11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="B12">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="B21">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="B22">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel4">
       <Properties>
@@ -284,6 +372,9 @@
         </Property>
         <Property name="text" type="java.lang.String" value="Add!"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bAddActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel6">
       <Properties>
@@ -300,6 +391,9 @@
         </Property>
         <Property name="text" type="java.lang.String" value="Subtruct!"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bSubtructActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel7">
       <Properties>
@@ -316,6 +410,9 @@
         </Property>
         <Property name="text" type="java.lang.String" value="Multiply!"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bMultiplyActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel8">
       <Properties>
@@ -332,50 +429,62 @@
         </Property>
         <Property name="text" type="java.lang.String" value="Divide!"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bDivideActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="A13">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="A23">
-    </Component>
-    <Component class="javax.swing.JTextField" name="A14">
-    </Component>
-    <Component class="javax.swing.JTextField" name="A15">
-    </Component>
-    <Component class="javax.swing.JTextField" name="A24">
-    </Component>
-    <Component class="javax.swing.JTextField" name="A25">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="A31">
-    </Component>
-    <Component class="javax.swing.JTextField" name="A32">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="A33">
-    </Component>
-    <Component class="javax.swing.JTextField" name="A34">
-    </Component>
-    <Component class="javax.swing.JTextField" name="A35">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="B13">
-    </Component>
-    <Component class="javax.swing.JTextField" name="B14">
-    </Component>
-    <Component class="javax.swing.JTextField" name="B15">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="B23">
-    </Component>
-    <Component class="javax.swing.JTextField" name="B24">
-    </Component>
-    <Component class="javax.swing.JTextField" name="B25">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="B31">
-    </Component>
-    <Component class="javax.swing.JTextField" name="B32">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="B33">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="B33ActionPerformed"/>
+      </Events>
     </Component>
-    <Component class="javax.swing.JTextField" name="B34">
+    <Component class="javax.swing.JTextField" name="B32">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2"/>
+      </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="B35">
+    <Component class="javax.swing.JTextField" name="A32">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1"/>
+      </Properties>
     </Component>
   </SubComponents>
 </Form>
